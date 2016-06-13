@@ -32,6 +32,6 @@ function dumpPage (images, currentId, previousId, nextId, saveDir) {
 
   fs.writeFile(saveDir + '/' + currentId + '.json', JSON.stringify(obj), 'utf8', function (err) {
     if (err) throw err
-    fs.symlink(saveDir + '/' + currentId + '.json', saveDir + '/current.json', function () {})
+    fs.symlink(currentId + '.json', saveDir + '/current.json', function () {})
   })
 }
