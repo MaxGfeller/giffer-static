@@ -1,1 +1,3 @@
 node_modules/
+tests/static-files/*
+tests/images/*
