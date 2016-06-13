@@ -1,0 +1,34 @@
+{
+  "name": "giffer-static",
+  "version": "0.0.0",
+  "description": "Create static content from giffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxGfeller/giffer-static.git"
+  },
+  "keywords": [
+    "giffer",
+    "static",
+    "gifs"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/giffer-static/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/giffer-static#readme",
+  "devDependencies": {
+    "giffer": "^2.0.13",
+    "levelup": "^1.3.2",
+    "memdown": "^1.2.0",
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "uuid": "^2.0.1"
+  }
+}
