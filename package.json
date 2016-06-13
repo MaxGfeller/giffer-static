@@ -4,7 +4,8 @@
   "description": "Create static content from giffer",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/test-*.js"
+    "test": "npm run clear-tests; node tests/test-*.js",
+    "clear-tests": "rm -rf tests/images/*; rm -rf tests/static-files/*"
   },
   "repository": {
     "type": "git",
